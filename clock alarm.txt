@@ -1,0 +1,24 @@
+ds3231-scl a5
+sda a4
+gnd gnd
+vcc 5v
+
+buttons 
+one leg of all buttons should be connected to gnd
+other legs should be connected to:
+b1 pin 9 select
+b2 pin 8 change
+buzzer
+gnd gnd 
+5v+ pin 10
+oled connection diagram is given
+
+go to libraries in arduino and install
+ds3231.h 
+Adafruitgfx.h
+adafruitssd1306.h
+
+and u are done
+connect ur computer to ur arduino and upload code and enjoy your new alarm clock
+ 
+
